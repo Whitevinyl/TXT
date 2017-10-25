@@ -1,5 +1,5 @@
 # DEFAULT
 
-Web version of my paint flow texture algorithm.
+Realtime text distortion using Perlin noise in Canvas.
 
-http://whitevinyldesign.com/experiments/flow/
+http://whitevinyldesign.com/experiments/txt/
