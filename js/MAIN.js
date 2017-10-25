@@ -92,7 +92,8 @@ function resetType() {
     if (typeGen) {
         type.push( new Type(ctx, x, y + ((fs * 0.8) * ratio), fs, lexicon.random('nn')) );
         type[1].link(type[0]);
-    } else {
+    }
+    if (!typeGen){
         resetType();
     }
 }
